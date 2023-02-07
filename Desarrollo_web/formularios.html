@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <main>
+        <h1>FORMULARIO</h1>
+        <form action="">
+            <label for="nombre">
+                <span>¿Cual es tu nombre?</span>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+            </label>
+            <br>
+            <hr>
+            <label for="Inicio-sistemas">
+                <span>¿Que dia iniciaste en la especialidad en sistemas?</span>
+                <input type="date" id="Inicio sistemas" name="fecha">
+            </label>
+            <br>
+            <hr>
+            <label for="horario">
+                <span>¿En que horario estudias?</span>
+                <input type="time" id="horario" name="hora">
+            </label>
+            <br>
+            <hr>
+            <select name="materias" id="">
+                <option value="Práctica">Práctica</option>
+                <option value="Teoría">Teoría</option>
+                <option value="Telemática">Telemática</option>
+            </select>
+            <hr>
+            <br>
+            <span></span>
+            <input list="materias">
+            <datalist id="materias">
+                <option value="Práctica">Práctica</option>
+                <option value="Teoría">Teoría</option>
+                <option value="Telemática">Telemática</option>
+            </datalist>
+            <hr>
+            <br>
+            <input type="submit" value="enviar">
+        </form>
+    </main>
+</body>
+</html>
